@@ -1,0 +1,28 @@
+main{
+    padding: 6.4rem 4.3rem;
+}
+.items{
+    align-items: center;
+    margin: 0px 272px;
+}
+.ul. *{
+    list-style: none;
+}
+.lst{
+    align-items: center;
+    list-style: none;
+}
+.chrt{
+    align-items: center;
+}
+.code{
+    align-items: center;
+    list-style: none;
+}
+@media screen and (max-width: 1080px) {
+    .items.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

@@ -1,0 +1,58 @@
+.main{
+    padding: 6.4rem 4.3rem;
+}
+.hd.row{
+    margin: 0 120px;
+    box-shadow: 0px 15px 10px -15px #111;
+    display: flex;
+}
+.info{
+    
+    margin: 20px 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 102px;
+    margin: 0 0 8px;
+}
+.info > .p > .intro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    align-items: center;
+}
+.info.urself{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    align-items: center;
+}
+.pic{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.pht6{
+    margin: 0px 120px;
+    padding-top: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+.pht6 a{
+    background-clip: padding-box;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+
+}
+@media screen and (max-width: 1080px) {
+    .hd.row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
